@@ -1,0 +1,77 @@
+/* Set the font of the web page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #EDEDED;
+}
+
+/* Stylize all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+    /* Change to your desired color */
+    border-bottom: 1px solid #929CA4;
+}
+
+/* Select the first letter of the first paragraph */
+section:first-of-type p:first-of-type::first-letter {
+    font-size: 30px;
+}
+
+/* Stylize the "solution" class */
+.solution {
+    color: #CC1C0D;
+    font-weight: bold;
+}
+
+/* Stylize client testimonials */
+#testimonial1,
+#testimonial2 {
+    font-style: italic;
+    margin-left: 50px;
+}
+
+/* Link styling for "http" prefix */
+a[href^="http"] {
+    color: blue;
+    /* unvisited link */
+    text-decoration: none;
+}
+
+a[href^="http"]:visited {
+    color: purple;
+    /* visited link */
+    text-decoration: none;
+}
+
+a[href^="http"]:hover {
+    color: red;
+    /* hover link */
+    text-decoration: underline;
+}
+
+a[href^="http"]:active {
+    color: green;
+    /* active link */
+    text-decoration: underline;
+}
+
+/* Remove bullets from the list in the management team */
+ul {
+    list-style-type: none;
+}
+
+/* Select the first item in the management team list */
+ul li:first-child {
+    color: blue;
+}
+
+/* Select the last item in the management team list */
+ul li:last-child {
+    color: red;
+}

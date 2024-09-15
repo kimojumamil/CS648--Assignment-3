@@ -1,0 +1,149 @@
+/* General styles for the body */
+body {
+    width: 960px;
+    margin: 0 0 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #EDEDED;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #CC1C0D;
+    text-decoration: underline;
+}
+
+nav ul ul li {
+    margin-left: 40px;
+  }
+
+/* Main content styles */
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Stylize all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #CC1C0D;
+    background-color: #DFE3E6;
+    border: 1px solid #929CA4;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+}
+
+p img {
+    vertical-align: top;
+    float:left;
+    margin-right: 10px;
+}
+
+p strong {
+    display: inline;
+    vertical-align: top;
+  }
+
+/* Change the color of all hyperlinks */
+a {
+    color: #CC1C0D;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #DFE3E6;
+    border-top: 1px solid #929CA4;
+}
+
+section img{
+    vertical-align: top;
+    float:left;
+    border-radius: 50%;
+    border: 2px solid red; /* Adds a red border */
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+section p{
+    display: inline;
+}
+
+section.pricing {
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+section.pricing div {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+
+section.pricing div img {
+    width: 63px;
+    height: 36px;
+}
+
+section.pricing div h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+section.pricing div p {
+    color: #666;
+}
+
+section.pricing div:nth-child(1) {
+    border-top: 5px solid #CC1C0D;
+}
+
+section.pricing div:nth-child(2) {
+    border-top: 5px solid #37A4A4;
+}
+
+section.pricing div:nth-child(3) {
+    border-top: 5px solid #685288;
+}
+
+section.pricing div:nth-child(4) {
+    border-top: 5px solid #000000;
+}
